@@ -4,11 +4,32 @@ body {
 p {
     display: inline-block;
     color: #ed6d63;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-bottom: 2px solid black;
 }
 li {
     display: inline-block;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-bottom: 2px solid black;
 }
 
-.buttons {
-    margin-top: 20px;
+input {
+    display: block;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+}
+button {
+    display: block;
+    background-color: lightcyan;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
