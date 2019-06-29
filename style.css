@@ -1,0 +1,14 @@
+body {
+    background-color: #b8bac3;
+}
+p {
+    display: inline-block;
+    color: #ed6d63;
+}
+li {
+    display: inline-block;
+}
+
+.buttons {
+    margin-top: 20px;
+}
