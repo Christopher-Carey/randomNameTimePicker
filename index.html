@@ -36,16 +36,18 @@
         <script>
             const nameArr = [];
             var arrLength;
-
+            /*this function will take the input and add it to the arry
+              and also display it on page.*/
             function addName() {
                 const name = document.getElementById("name").value;
                 nameArr.push(name);
                 document.getElementById("names").textContent=nameArr;
                 arrLength=nameArr.length;
                 document.getElementById("name").value = " ";
-
             }
-
+            /*this function will take the array, randomly select a index
+              assign it to a time slot, and delet it form the array
+              untill array is empty, also clears 'name div'.*/
             function randomGo(){
                 for(var i=0;i<arrLength+1;i++){
                     if(document.getElementById("time"+i).textContent<1){
