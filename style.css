@@ -33,3 +33,47 @@ button {
     display: inline-block;
     font-size: 16px;
 }
+.infonames:before {
+    content: "";
+    position: absolute;
+    top: 50%;                         
+    margin-top: 20px;                
+    left:8px;
+    border: solid 10px transparent;
+    border-top-color: darkblue;
+    z-index: 1;
+}
+.infonames{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 3px;
+    border: 2px solid darkblue;
+    font-size: 15px;
+    animation: infonames 2s ease-in;
+    padding: 2px;
+}
+@keyframes infonames{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.infoadd:before {
+    content: "";
+    position: absolute;
+    top: 50%;                         
+    margin-top: 20px;                
+    left:8px;
+    border: solid 10px transparent;
+    border-top-color: darkblue;
+    z-index: 1;
+}
+.infoadd{
+    opacity: 0;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 3px;
+    border: 2px solid darkblue;
+    font-size: 15px;
+    animation: infoadd 2s ease-in;
+    padding: 2px;
+}
+
